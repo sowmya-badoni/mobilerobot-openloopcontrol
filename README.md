@@ -9,19 +9,19 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+## Step1:
 Define the predefined path Create a list or array to store the coordinates of the robot's predefined path. Each coordinate should represent a point along the path that the robot needs to follow.
 
-Step2:
+## Step2:
 Initialize the robot's starting position Set the robot's initial position to the first coordinate in the predefined path.
 
-Step3:
+## Step3:
 Move the robot along the path Loop through each coordinate in the predefined path, starting from the second coordinate. Calculate the distance and direction from the robot's current position to the next coordinate. Use appropriate robot control commands to move the robot towards the next coordinate. Repeat this process for each coordinate in the predefined path.
 
-Step4:
+S## tep4:
 Check if the robot has reached the end of the path After completing the loop, compare the robot's final position with the last coordinate in the predefined path. If the two positions match or are within a certain threshold, the robot has successfully reached the end of the path. If not, modify the path or make other adjustments as needed.
 
-Step5:
+## Step5:
 End the program
 
 Once the robot has reached the end of the path, stop the program or execute any additional tasks required. Print a message or perform any necessary cleanup steps before terminating the program.
