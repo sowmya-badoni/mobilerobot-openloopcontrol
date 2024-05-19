@@ -18,7 +18,7 @@ Initialize the robot's starting position Set the robot's initial position to the
 ## Step3:
 Move the robot along the path Loop through each coordinate in the predefined path, starting from the second coordinate. Calculate the distance and direction from the robot's current position to the next coordinate. Use appropriate robot control commands to move the robot towards the next coordinate. Repeat this process for each coordinate in the predefined path.
 
-S## tep4:
+## Step4:
 Check if the robot has reached the end of the path After completing the loop, compare the robot's final position with the last coordinate in the predefined path. If the two positions match or are within a certain threshold, the robot has successfully reached the end of the path. If not, modify the path or make other adjustments as needed.
 
 ## Step5:
